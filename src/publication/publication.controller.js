@@ -4,7 +4,6 @@ import Publication from "./publication.model.js";
 export const createPublication = async (req, res) => {
     try {
 
-        //desestructuramos los objetos del req.body de publicacion.
         const data = req.body;
 
         const publication = new Publication({
@@ -28,6 +27,7 @@ export const getPublication = async (req, res) => {
         const publicacion = await Publication.find(query)
             //Buscamos el atributo comments y el contenido del comentario para listarlo.
             .populate("comments", "content")
+            .populate("course", "name description")
 
         return res.status(200).json({
             success: true,
@@ -45,37 +45,27 @@ export const getPublication = async (req, res) => {
 export const updatePublication = async (req, res) => {
     try {
         const { id } = req.params;
-        const { title, description, course } = req.body;
+        const data = req.body;
 
-        const publicacion = await Publication.findById(id)
+        const publicacion = await Publication.findByIdAndUpdate(id, { ...data }, { new: true });
 
         if (!publicacion) {
             return res.status(404).json({
                 success: false,
-                msg: "Publicacion no encontrada",
+                msg: "Publicación no encontrada",
             });
         }
 
-        publicacion.title = title || publicacion.title;
-        publicacion.description = description || publicacion.description;
-        publicacion.course = course|| publicacion.course;
-
-        await publicacion.save();
-
         res.status(200).json({
             success: true,
-            msg: 'Publicacion Actualizada',
-            publicacion,
+            msg: 'Publicación actualizada',
+            publicacion
         });
-
     } catch (error) {
-        return res.status(500).json({
-            success: false,
-            msg: "Error al actualizar la publicacion",
-            error,
-        });
+        res.status(500).json({ message: 'Error al actualizar la publicación.', error: error.message });
     }
-}
+};
+
 
 
 export const deletePublication = async (req, res) => {
