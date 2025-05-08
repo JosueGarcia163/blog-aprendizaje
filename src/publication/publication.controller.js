@@ -42,6 +42,46 @@ export const getPublication = async (req, res) => {
     }
 }
 
+export const getPublicationById = async (req, res) => {
+    try {
+        const { id } = req.params
+        const publicacion = await Publication.findById(id).populate("comments", "content")
+            .populate("course", "name description")
+
+        return res.status(200).json({
+            success: true,
+            publicacion
+        })
+    } catch (err) {
+        return res.status(500).json({
+            success: false,
+            message: "Error al obtener la publicacion",
+            error: err.message
+        })
+    }
+}
+
+export const getPublicationsByCourse = async (req, res) => {
+    try {
+        const { courseId } = req.params;
+        const publications = await Publication.find({ course: courseId, status: true })
+            .populate("course", "name")
+            .sort({ createdAt: -1 });
+
+            return res.status(200).json({
+                success: true,
+                publications
+            })
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            message: "Error al obtener las publicaciones por medio del curso",
+            error: err.message
+        })
+    }
+};
+
+
 export const updatePublication = async (req, res) => {
     try {
         const { id } = req.params;
