@@ -8,7 +8,7 @@ export const createComment = async (req, res) => {
         //desestructuramos los objetos del req.body de comment.
         const { content, publication, username } = req.body;
 
-        const existingPublication = await Publication.findOne({ title: publication })
+        const existingPublication = await Publication.findById(publication);
         if (!existingPublication) {
             return res.status(404).json({ message: "No se encontro publicacion en la db" });
         }
@@ -56,3 +56,23 @@ export const getComment = async (req, res) => {
         })
     }
 }
+
+export const getCommentsByPublication = async (req, res) => {
+    try {
+        const { publicationId } = req.params;
+        const comments = await Comment.find({ publication: publicationId, status: true })
+            .populate("publication", "title description")
+            .sort({ createdAt: -1 });
+
+            return res.status(200).json({
+                success: true,
+                comments
+            })
+    } catch (err) {
+        return res.status(500).json({
+            success: false,
+            message: "Error al obtener los comentarios por medio de publicacion",
+            error: err.message
+        })
+    }
+};

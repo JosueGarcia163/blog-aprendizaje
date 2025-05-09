@@ -1,5 +1,5 @@
 import { body, param } from "express-validator";
-import { commentExist } from "../helpers/db-validators.js";
+import { commentExist, publicationExist } from "../helpers/db-validators.js";
 import { validarCampos } from "./validate-fields.js";
 import { handleErrors } from "./handle-errors.js";
 
@@ -13,6 +13,13 @@ export const createValidator = [
 ]
 
 export const getCommentValidator = [
+    validarCampos,
+    handleErrors
+]
+
+export const getCommentByIdValidator = [
+    param("publicationId").isMongoId().withMessage("No es un ID válido de MongoDB"),
+    param("publicationId").custom(publicationExist),
     validarCampos,
     handleErrors
 ]

@@ -9,12 +9,12 @@ export const createDefaultCourses = async () => {
         const existingPractica = await Course.findOne({ name: defaultPractica });
         const existingTecnologia = await Course.findOne({ name: defaultTec });
         const existingTaller = await Course.findOne({ name: defaultTaller });
-    
+
         if (existingPractica && existingTecnologia && existingTaller) {
             console.log("Los cursos ya existen.");
             return;
         }
-         
+
         const defaultCoursePractica = new Course({
             name: defaultPractica,
             description: "Este es el curso de practica supervisada",
@@ -33,7 +33,7 @@ export const createDefaultCourses = async () => {
             status: true,
         });
 
-    
+
         await defaultCoursePractica.save();
         await defaultCourseTec.save();
         await defaultCourseTaller.save();
@@ -42,5 +42,22 @@ export const createDefaultCourses = async () => {
         console.log("Cursos creados exitosamente creado exitosamente.");
     } catch (error) {
         console.error("Error al crear los cursos:", error.message);
+    }
+};
+
+export const getCourses = async (req, res) => {
+    try {
+        const courses = await Course.find();
+
+        return res.status(200).json({
+            success: true,
+            courses
+        })
+    } catch (err) {
+        return res.status(500).json({
+            success: false,
+            message: "Error al obtener los cursos",
+            error: err.message
+        })
     }
 };
