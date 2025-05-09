@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "68170f3e72d8a88b3a3d7d46"
+  },
+  "name": "Practica supervisada",
+  "description": "Este es el curso de practica supervisada",
+  "createdAt": {
+    "$date": "2025-05-04T06:54:54.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-04T06:54:54.450Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68170f3e72d8a88b3a3d7d47"
+  },
+  "name": "Tecnologia",
+  "description": "Este es el curso de tecnologia",
+  "createdAt": {
+    "$date": "2025-05-04T06:54:54.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-04T06:54:54.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68170f3e72d8a88b3a3d7d48"
+  },
+  "name": "Taller",
+  "description": "Este es el curso de taller",
+  "createdAt": {
+    "$date": "2025-05-04T06:54:54.519Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-04T06:54:54.519Z"
+  }
+}]

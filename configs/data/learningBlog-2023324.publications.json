@@ -1,0 +1,87 @@
+[{
+  "_id": {
+    "$oid": "68170f7153b2c1e4539c1783"
+  },
+  "title": "Publicacion12233",
+  "description": "Categoria122",
+  "course": {
+    "$oid": "68170f3e72d8a88b3a3d7d48"
+  },
+  "comments": [
+    {
+      "$oid": "681da37b2385802cdf89e84e"
+    },
+    {
+      "$oid": "681dbe0ac133df98a48e6f46"
+    },
+    {
+      "$oid": "681dbfc8c133df98a48e6f6b"
+    },
+    {
+      "$oid": "681dc041c133df98a48e6f6f"
+    },
+    {
+      "$oid": "681dc2eec133df98a48e6f99"
+    }
+  ],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-04T06:55:45.393Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T08:55:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681983ec423c351cd03a0734"
+  },
+  "title": "Publicacion773",
+  "description": "Categoria772",
+  "course": {
+    "$oid": "68170f3e72d8a88b3a3d7d48"
+  },
+  "comments": [
+    {
+      "$oid": "681998cf4a88baf3c0182b92"
+    },
+    {
+      "$oid": "681dac344ffc34c3a06ec91f"
+    },
+    {
+      "$oid": "681dacfb4ffc34c3a06ec92a"
+    },
+    {
+      "$oid": "681dbcd4c133df98a48e6f35"
+    }
+  ],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-06T03:37:16.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T08:29:08.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681c37931de9b8d6835bd1cc"
+  },
+  "title": "Publicacion88",
+  "description": "Categoria88",
+  "course": {
+    "$oid": "68170f3e72d8a88b3a3d7d46"
+  },
+  "comments": [
+    {
+      "$oid": "681dbd0fc133df98a48e6f39"
+    }
+  ],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-08T04:48:19.637Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T08:30:07.732Z"
+  }
+}]
