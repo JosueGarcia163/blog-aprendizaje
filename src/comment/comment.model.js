@@ -9,7 +9,7 @@ const commentSchema = Schema({
     content: {
         type: String,
         required: [true, "Content is required"],
-        maxLength: [75, "Name cannot exceed 75 characters"]
+        maxLength: [250, "Name cannot exceed 250 characters"]
     },
     publication: {
         type: Schema.Types.ObjectId,

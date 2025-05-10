@@ -85,23 +85,6 @@
 },
 {
   "_id": {
-    "$oid": "681dbd0fc133df98a48e6f39"
-  },
-  "username": "fdsfsdfsdfsd",
-  "content": "sfsdfsdfsdf",
-  "publication": {
-    "$oid": "681c37931de9b8d6835bd1cc"
-  },
-  "status": true,
-  "createdAt": {
-    "$date": "2025-05-09T08:30:07.730Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-09T08:30:07.730Z"
-  }
-},
-{
-  "_id": {
     "$oid": "681dbe0ac133df98a48e6f46"
   },
   "username": "OMGGGG",
@@ -149,5 +132,73 @@
   },
   "updatedAt": {
     "$date": "2025-05-09T08:55:10.481Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ed1bcc81f78d572eb95ff"
+  },
+  "username": "JosueGarcia",
+  "content": "Este es el comentario de el curso de tecnologia",
+  "publication": {
+    "$oid": "681ec754a818ebb1df2069a8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-10T04:10:36.406Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T04:10:36.406Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ed211c81f78d572eb9629"
+  },
+  "username": "JosueGarcia",
+  "content": "Este es el segundo comentario",
+  "publication": {
+    "$oid": "681ec754a818ebb1df2069a8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-10T04:12:01.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T04:12:01.815Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ed5b05957d8688716e427"
+  },
+  "username": "JosueGarcia",
+  "content": "este curso me encantaaaaa",
+  "publication": {
+    "$oid": "681ed58e5957d8688716e416"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-10T04:27:28.833Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T04:27:28.833Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ed7db2015e2e58970cfc4"
+  },
+  "username": "JosueGarcia",
+  "content": "Practica supervisada a demostrado a lo largo del tiempo ser mejor que cualquier otro curso debido a las actividades entretenidas que contiene y que nos hacen disfrutar del desarrollo web.",
+  "publication": {
+    "$oid": "681ed6a65957d8688716e478"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-10T04:36:43.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T04:36:43.800Z"
   }
 }]

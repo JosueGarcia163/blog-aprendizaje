@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"Publicacion88\",\r\n    \"description\": \"Categoria88\",\r\n    \"course\": \"68170f3e72d8a88b3a3d7d46\"\r\n}",
+							"raw": "{\r\n    \"title\": \"PubliPracticaSupervisada\",\r\n    \"description\": \"Esta es una publicacion en la que hablaremos por que practica supervisada es mejor que taller.\",\r\n    \"course\": \"68170f3e72d8a88b3a3d7d46\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

@@ -22,6 +22,9 @@
     },
     {
       "$oid": "681dc2eec133df98a48e6f99"
+    },
+    {
+      "$oid": "681ed8532015e2e58970d045"
     }
   ],
   "status": true,
@@ -29,7 +32,7 @@
     "$date": "2025-05-04T06:55:45.393Z"
   },
   "updatedAt": {
-    "$date": "2025-05-09T08:55:10.483Z"
+    "$date": "2025-05-10T04:38:43.468Z"
   }
 },
 {
@@ -65,23 +68,70 @@
 },
 {
   "_id": {
-    "$oid": "681c37931de9b8d6835bd1cc"
+    "$oid": "681ec754a818ebb1df2069a8"
   },
-  "title": "Publicacion88",
-  "description": "Categoria88",
+  "title": "Publicacion99",
+  "description": "Categoria99",
+  "course": {
+    "$oid": "68170f3e72d8a88b3a3d7d47"
+  },
+  "comments": [
+    {
+      "$oid": "681ed1bcc81f78d572eb95ff"
+    },
+    {
+      "$oid": "681ed211c81f78d572eb9629"
+    }
+  ],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-10T03:26:12.055Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T04:12:01.818Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ed58e5957d8688716e416"
+  },
+  "title": "Publicacion100",
+  "description": "Las mejores descipciones",
+  "course": {
+    "$oid": "68170f3e72d8a88b3a3d7d47"
+  },
+  "comments": [
+    {
+      "$oid": "681ed5b05957d8688716e427"
+    }
+  ],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-10T04:26:54.882Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T04:27:28.837Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ed6a65957d8688716e478"
+  },
+  "title": "PubliPracticaSupervisada",
+  "description": "Esta es una publicacion en la que hablaremos por que practica supervisada es mejor que taller.",
   "course": {
     "$oid": "68170f3e72d8a88b3a3d7d46"
   },
   "comments": [
     {
-      "$oid": "681dbd0fc133df98a48e6f39"
+      "$oid": "681ed7db2015e2e58970cfc4"
     }
   ],
   "status": true,
   "createdAt": {
-    "$date": "2025-05-08T04:48:19.637Z"
+    "$date": "2025-05-10T04:31:34.326Z"
   },
   "updatedAt": {
-    "$date": "2025-05-09T08:30:07.732Z"
+    "$date": "2025-05-10T04:36:43.807Z"
   }
 }]
