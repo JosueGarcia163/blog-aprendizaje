@@ -22,6 +22,9 @@ const publicationSchema = Schema({
             ref: "Comment",
         }
     ],
+    profilePicture:{
+        type: String
+    },
     status: {
         type: Boolean,
         default: true

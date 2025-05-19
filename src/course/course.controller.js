@@ -18,18 +18,21 @@ export const createDefaultCourses = async () => {
         const defaultCoursePractica = new Course({
             name: defaultPractica,
             description: "Este es el curso de practica supervisada",
+            image: "https://www.unirioja.es/wp-content/uploads/2025/03/20240311%E2%80%90SurfIngInf%E2%80%90Boscos%E2%80%90Unirioja-010.jpg",
             status: true,
         });
 
         const defaultCourseTec = new Course({
             name: defaultTec,
             description: "Este es el curso de tecnologia",
+            image: "https://www.cibernos.com/hubfs/photo-1561883088-039e53143d73.jpg",
             status: true,
         });
 
         const defaultCourseTaller = new Course({
             name: defaultTaller,
             description: "Este es el curso de taller",
+            image: "https://ingenieria.uv.cl/wp-content/uploads/2023/07/1688565356336-696x378.jpg",
             status: true,
         });
 

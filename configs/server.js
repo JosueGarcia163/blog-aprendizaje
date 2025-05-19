@@ -25,7 +25,7 @@ const middlewares = (app) => {
                 defaultSrc: ["'self'"],
                 scriptSrc: ["'self'", "'unsafe-inline'", `http://localhost:${process.env.PORT}`],
                 connectSrc: ["'self'", `http://localhost:${process.env.PORT}`],
-                imgSrc: ["'self'", "data:"],
+                imgSrc: ["'self'", "data:", `http://localhost:${process.env.PORT}`],
                 styleSrc: ["'self'", "'unsafe-inline'"],
             },
         },
@@ -35,9 +35,10 @@ const middlewares = (app) => {
 }
 
 const routes = (app) => {
-    app.use("/learningBlog/v1/publication",publicationRoutes)
-    app.use("/learningBlog/v1/comment",commentRoutes)
-    app.use("/learningBlog/v1/course",courseRoutes)
+    app.use("/learningBlog/v1/publication", publicationRoutes)
+    app.use("/learningBlog/v1/comment", commentRoutes)
+    app.use("/learningBlog/v1/course", courseRoutes)
+    app.use('/uploads', express.static('public/uploads'));
     app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 }
 

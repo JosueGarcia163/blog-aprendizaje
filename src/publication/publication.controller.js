@@ -1,10 +1,11 @@
 import Publication from "./publication.model.js";
 
-
 export const createPublication = async (req, res) => {
     try {
 
         const data = req.body;
+        let profilePicture = req.file ? req.file.filename : null;
+        data.profilePicture = profilePicture
 
         const publication = new Publication({
             ...data
