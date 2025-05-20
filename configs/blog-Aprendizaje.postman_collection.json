@@ -18,13 +18,29 @@
 						"method": "POST",
 						"header": [],
 						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"PubliPracticaSupervisada\",\r\n    \"description\": \"Esta es una publicacion en la que hablaremos por que practica supervisada es mejor que taller.\",\r\n    \"course\": \"68170f3e72d8a88b3a3d7d46\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "PubliTaller",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "El mejor curso.",
+									"type": "text"
+								},
+								{
+									"key": "profilePicture",
+									"type": "file",
+									"src": "/C:/Users/Informatica/Pictures/Screenshots/Captura de pantalla 2025-01-20 103130.png"
+								},
+								{
+									"key": "course",
+									"value": "682ce9e442145831b2639965",
+									"type": "text"
 								}
-							}
+							]
 						},
 						"url": {
 							"raw": "http://127.0.0.1:3001/learningBlog/v1/publication/createPublication",
