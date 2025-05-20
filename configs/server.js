@@ -25,10 +25,10 @@ const middlewares = (app) => {
                 defaultSrc: ["'self'"],
                 scriptSrc: ["'self'", "'unsafe-inline'", `http://localhost:${process.env.PORT}`],
                 connectSrc: ["'self'", `http://localhost:${process.env.PORT}`],
-                imgSrc: ["'self'", "data:", `http://localhost:${process.env.PORT}`],
+                imgSrc: ["'self'", "data:"],
                 styleSrc: ["'self'", "'unsafe-inline'"],
             },
-        },
+        }
     }));
     app.use(morgan("dev"))
     app.use(apiLimiter)
