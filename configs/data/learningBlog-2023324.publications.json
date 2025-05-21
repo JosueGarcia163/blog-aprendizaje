@@ -1,137 +1,165 @@
 [{
   "_id": {
-    "$oid": "68170f7153b2c1e4539c1783"
+    "$oid": "682d3ff4f06f1d7df73fb5c5"
   },
-  "title": "Publicacion12233",
-  "description": "Categoria122",
+  "title": "PubliTarea#3",
+  "description": "En esta publicacion hablaremos de la tarea numero 3 de este nuevo bimestre.",
   "course": {
-    "$oid": "68170f3e72d8a88b3a3d7d48"
+    "$oid": "682d3ea2f06f1d7df73fb5b8"
   },
   "comments": [
     {
-      "$oid": "681da37b2385802cdf89e84e"
+      "$oid": "682d4044f06f1d7df73fb5ea"
     },
     {
-      "$oid": "681dbe0ac133df98a48e6f46"
+      "$oid": "682d4071f06f1d7df73fb614"
     },
     {
-      "$oid": "681dbfc8c133df98a48e6f6b"
+      "$oid": "682d40aef06f1d7df73fb62f"
     },
     {
-      "$oid": "681dc041c133df98a48e6f6f"
-    },
-    {
-      "$oid": "681dc2eec133df98a48e6f99"
-    },
-    {
-      "$oid": "681ed8532015e2e58970d045"
+      "$oid": "682d411497f211f842a12c09"
     }
   ],
+  "profilePicture": "Captura_de_pantalla_2025-05-19_200711-1747795956063.png",
   "status": true,
   "createdAt": {
-    "$date": "2025-05-04T06:55:45.393Z"
+    "$date": "2025-05-21T02:52:36.076Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T04:38:43.468Z"
+    "$date": "2025-05-21T02:57:24.330Z"
   }
 },
 {
   "_id": {
-    "$oid": "681983ec423c351cd03a0734"
+    "$oid": "682d41c697f211f842a12c27"
   },
-  "title": "Publicacion773",
-  "description": "Categoria772",
+  "title": "PubliExamen.",
+  "description": "En esta publicacion hablaremos la nota del examen.",
   "course": {
-    "$oid": "68170f3e72d8a88b3a3d7d48"
+    "$oid": "682d3ea2f06f1d7df73fb5b8"
   },
   "comments": [
     {
-      "$oid": "681998cf4a88baf3c0182b92"
+      "$oid": "682d41f597f211f842a12c46"
     },
     {
-      "$oid": "681dac344ffc34c3a06ec91f"
+      "$oid": "682d4291ef67351d451e719e"
     },
     {
-      "$oid": "681dacfb4ffc34c3a06ec92a"
-    },
-    {
-      "$oid": "681dbcd4c133df98a48e6f35"
+      "$oid": "682d42d2ef67351d451e71b9"
     }
   ],
+  "profilePicture": "Captura_de_pantalla_2025-05-17_000628-1747796422893.png",
   "status": true,
   "createdAt": {
-    "$date": "2025-05-06T03:37:16.782Z"
+    "$date": "2025-05-21T03:00:22.901Z"
   },
   "updatedAt": {
-    "$date": "2025-05-09T08:29:08.598Z"
+    "$date": "2025-05-21T03:04:50.207Z"
   }
 },
 {
   "_id": {
-    "$oid": "681ec754a818ebb1df2069a8"
+    "$oid": "682d43aeef67351d451e71ed"
   },
-  "title": "Publicacion99",
-  "description": "Categoria99",
+  "title": "Publicacion MPV.",
+  "description": "En esta publicacion hablaremos de las notas mas altas de taller.",
   "course": {
-    "$oid": "68170f3e72d8a88b3a3d7d47"
+    "$oid": "682d3ea2f06f1d7df73fb5b8"
   },
   "comments": [
     {
-      "$oid": "681ed1bcc81f78d572eb95ff"
+      "$oid": "682d441cef67351d451e71f6"
     },
     {
-      "$oid": "681ed211c81f78d572eb9629"
+      "$oid": "682d44a2d5c10e200ba6ea1e"
     }
   ],
+  "profilePicture": "Captura_de_pantalla_2025-05-19_213023-1747796910385.png",
   "status": true,
   "createdAt": {
-    "$date": "2025-05-10T03:26:12.055Z"
+    "$date": "2025-05-21T03:08:30.400Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T04:12:01.818Z"
+    "$date": "2025-05-21T03:12:34.519Z"
   }
 },
 {
   "_id": {
-    "$oid": "681ed58e5957d8688716e416"
+    "$oid": "682d46d5939591b2e95491dd"
   },
-  "title": "Publicacion100",
-  "description": "Las mejores descipciones",
+  "title": "Publicacion #1 de tecno",
+  "description": "En esta publicacion hablaremos de como sera el examen de tecnologia.",
   "course": {
-    "$oid": "68170f3e72d8a88b3a3d7d47"
+    "$oid": "682d3ea2f06f1d7df73fb5b7"
   },
   "comments": [
     {
-      "$oid": "681ed5b05957d8688716e427"
+      "$oid": "682d4739939591b2e95491e6"
+    },
+    {
+      "$oid": "682d479c939591b2e95491fd"
+    },
+    {
+      "$oid": "682d482d81e8df3edbbc2c56"
     }
   ],
+  "profilePicture": "Captura_de_pantalla_2025-05-17_000405-1747797717164.png",
   "status": true,
   "createdAt": {
-    "$date": "2025-05-10T04:26:54.882Z"
+    "$date": "2025-05-21T03:21:57.171Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T04:27:28.837Z"
+    "$date": "2025-05-21T03:27:41.669Z"
   }
 },
 {
   "_id": {
-    "$oid": "681ed6a65957d8688716e478"
+    "$oid": "682d4eaf81e8df3edbbc2c9a"
   },
-  "title": "PubliPracticaSupervisada",
-  "description": "Esta es una publicacion en la que hablaremos por que practica supervisada es mejor que taller.",
+  "title": "Publicacion #2 de tecno",
+  "description": "En esta publicacion hablaremos de como sera el examen 2 de tecnologia.",
   "course": {
-    "$oid": "68170f3e72d8a88b3a3d7d46"
+    "$oid": "682d3ea2f06f1d7df73fb5b7"
   },
   "comments": [
     {
-      "$oid": "681ed7db2015e2e58970cfc4"
+      "$oid": "682d4ee181e8df3edbbc2ca3"
+    },
+    {
+      "$oid": "682d4f0681e8df3edbbc2cba"
     }
   ],
+  "profilePicture": "Captura_de_pantalla_2025-05-17_000224-1747799727714.png",
   "status": true,
   "createdAt": {
-    "$date": "2025-05-10T04:31:34.326Z"
+    "$date": "2025-05-21T03:55:27.726Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T04:36:43.807Z"
+    "$date": "2025-05-21T03:56:54.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d4f8181e8df3edbbc2cda"
+  },
+  "title": "Publicacion #1 practica",
+  "description": "En esta publicacion hablaremos de por que practica supervisada es superior a taller",
+  "course": {
+    "$oid": "682d3ea2f06f1d7df73fb5b6"
+  },
+  "comments": [
+    {
+      "$oid": "682d501394bdae057487b7d5"
+    }
+  ],
+  "profilePicture": "Captura_de_pantalla_2025-05-19_213023-1747799937965.png",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-21T03:58:57.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T04:01:23.041Z"
   }
 }]

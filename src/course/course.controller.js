@@ -17,22 +17,22 @@ export const createDefaultCourses = async () => {
 
         const defaultCoursePractica = new Course({
             name: defaultPractica,
-            description: "Este es el curso de practica supervisada",
-            image: "https://www.unirioja.es/wp-content/uploads/2025/03/20240311%E2%80%90SurfIngInf%E2%80%90Boscos%E2%80%90Unirioja-010.jpg",
+            description: "Curso de práctica supervisada donde se asignan tareas y proyectos prácticos utilizando Node.js, MongoDB, React con Vite, Express y otras tecnologías modernas para consolidar habilidades de desarrollo full stack.",
+            image: "PracticaSupervisadaImg.jpg",
             status: true,
         });
 
         const defaultCourseTec = new Course({
             name: defaultTec,
-            description: "Este es el curso de tecnologia",
-            image: "https://www.cibernos.com/hubfs/photo-1561883088-039e53143d73.jpg",
+            description: "Curso enfocado en la teoría y fundamentos de la programación y tecnologías web, incluyendo los conceptos de software, conceptos de bases de datos, protocolos y principios de desarrollo.",
+            image: "TecnologiaImg.webp",
             status: true,
         });
 
         const defaultCourseTaller = new Course({
             name: defaultTaller,
-            description: "Este es el curso de taller",
-            image: "https://ingenieria.uv.cl/wp-content/uploads/2023/07/1688565356336-696x378.jpg",
+            description: "El curso de taller pretende implementar proyectos y actividades que enfoquen al alumno a un ambiente practico de la programacion y a la vez orientado a implementar proyectos y actividades. ",
+            image: "TallerImg.jpg",
             status: true,
         });
 

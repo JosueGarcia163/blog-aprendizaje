@@ -1,39 +1,42 @@
 [{
   "_id": {
-    "$oid": "68170f3e72d8a88b3a3d7d46"
+    "$oid": "682d3ea2f06f1d7df73fb5b6"
   },
   "name": "Practica supervisada",
-  "description": "Este es el curso de practica supervisada",
+  "description": "Curso de práctica supervisada donde se asignan tareas y proyectos prácticos utilizando Node.js, MongoDB, React con Vite, Express y otras tecnologías modernas para consolidar habilidades de desarrollo full stack.",
+  "image": "PracticaSupervisadaImg.jpg",
   "createdAt": {
-    "$date": "2025-05-04T06:54:54.450Z"
+    "$date": "2025-05-21T02:46:58.296Z"
   },
   "updatedAt": {
-    "$date": "2025-05-04T06:54:54.450Z"
+    "$date": "2025-05-21T02:46:58.296Z"
   }
 },
 {
   "_id": {
-    "$oid": "68170f3e72d8a88b3a3d7d47"
+    "$oid": "682d3ea2f06f1d7df73fb5b7"
   },
   "name": "Tecnologia",
-  "description": "Este es el curso de tecnologia",
+  "description": "Curso enfocado en la teoría y fundamentos de la programación y tecnologías web, incluyendo los conceptos de software, conceptos de bases de datos, protocolos y principios de desarrollo.",
+  "image": "TecnologiaImg.webp",
   "createdAt": {
-    "$date": "2025-05-04T06:54:54.516Z"
+    "$date": "2025-05-21T02:46:58.332Z"
   },
   "updatedAt": {
-    "$date": "2025-05-04T06:54:54.516Z"
+    "$date": "2025-05-21T02:46:58.332Z"
   }
 },
 {
   "_id": {
-    "$oid": "68170f3e72d8a88b3a3d7d48"
+    "$oid": "682d3ea2f06f1d7df73fb5b8"
   },
   "name": "Taller",
-  "description": "Este es el curso de taller",
+  "description": "El curso de taller pretende implementar proyectos y actividades que enfoquen al alumno a un ambiente practico de la programacion y a la vez orientado a implementar proyectos y actividades. ",
+  "image": "TallerImg.jpg",
   "createdAt": {
-    "$date": "2025-05-04T06:54:54.519Z"
+    "$date": "2025-05-21T02:46:58.335Z"
   },
   "updatedAt": {
-    "$date": "2025-05-04T06:54:54.519Z"
+    "$date": "2025-05-21T02:46:58.335Z"
   }
 }]
