@@ -1,7 +1,7 @@
 import { Router } from "express"
 import { getPublication,getPublicationById, createPublication, updatePublication, deletePublication, getPublicationsByCourse } from "./publication.controller.js"
 import { createValidator, getPublicationValidator, deletePublicationValidator, updatePublicationValidator, PublicationByIdValidator, PublicationByCourseValidator } from "../middlewares/publication-validators.js"
-import { uploadProfilePicture } from "../middlewares/multer-uploads.js"
+import upload from '../middlewares/multer-uploads.js';
 
 const router = Router()
 
@@ -46,7 +46,7 @@ const router = Router()
  *         description: Internal server error
  */
 
-router.post("/createPublication", uploadProfilePicture.single("profilePicture"),
+router.post("/createPublication", upload.single('image'),
 createValidator, createPublication)
 
 

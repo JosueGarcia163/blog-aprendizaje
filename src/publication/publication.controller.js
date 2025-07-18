@@ -1,26 +1,29 @@
 import Publication from "./publication.model.js";
 
 export const createPublication = async (req, res) => {
-    try {
+  try {
+    const data = req.body;
 
-        const data = req.body;
-        let profilePicture = req.file ? req.file.filename : null;
-        data.profilePicture = profilePicture
-
-        const publication = new Publication({
-            ...data
-        });
-
-        await publication.save();
-
-        res.status(200).json({
-            success: true,
-            publication
-        });
-    } catch (error) {
-        res.status(500).json({ message: 'Error al crear la publicacion.', error: error.message });
+    if (req.file) {
+      data.profilePicture = req.file.path; 
     }
+
+    const publication = new Publication({ ...data });
+
+    await publication.save();
+
+    res.status(200).json({
+      success: true,
+      publication,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: 'Error al crear la publicación.',
+      error: error.message,
+    });
+  }
 };
+
 
 export const getPublication = async (req, res) => {
     try {

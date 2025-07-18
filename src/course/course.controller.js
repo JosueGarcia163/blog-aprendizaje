@@ -18,21 +18,21 @@ export const createDefaultCourses = async () => {
         const defaultCoursePractica = new Course({
             name: defaultPractica,
             description: "Curso de práctica supervisada donde se asignan tareas y proyectos prácticos utilizando Node.js, MongoDB, React con Vite, Express y otras tecnologías modernas para consolidar habilidades de desarrollo full stack.",
-            image: "PracticaSupervisadaImg.jpg",
+            image: "https://res.cloudinary.com/dfvdnu8xa/image/upload/v1752812646/PracticaSupervisadaImg_cqpebj.jpg",
             status: true,
         });
 
         const defaultCourseTec = new Course({
             name: defaultTec,
             description: "Curso enfocado en la teoría y fundamentos de la programación y tecnologías web, incluyendo los conceptos de software, conceptos de bases de datos, protocolos y principios de desarrollo.",
-            image: "TecnologiaImg.webp",
+            image: "https://res.cloudinary.com/dfvdnu8xa/image/upload/v1752812653/TecnologiaImg_fyapym.webp",
             status: true,
         });
 
         const defaultCourseTaller = new Course({
             name: defaultTaller,
             description: "El curso de taller pretende implementar proyectos y actividades que enfoquen al alumno a un ambiente practico de la programacion y a la vez orientado a implementar proyectos y actividades. ",
-            image: "TallerImg.jpg",
+            image: "https://res.cloudinary.com/dfvdnu8xa/image/upload/v1752812650/TallerImg_p4lfbb.jpg",
             status: true,
         });
 
